@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/solvedCrime"
+        android:title="@string/solved"
+        android:icon="@android:drawable/ic_lock_idle_lock"
+    />
+
+    <item   android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="@string/all"
+            android:id="@+id/allCrimes" />
+
+    <item   android:id="@+id/openCrimes"
+            android:title="@string/Unresolved"
+            android:icon="@android:drawable/ic_menu_search" />
+</menu>

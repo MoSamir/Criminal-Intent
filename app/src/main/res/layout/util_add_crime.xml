@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dialog_add_crime"
+    app:cardCornerRadius="5dp"
+    android:gravity="center"
+    android:elevation="@dimen/cardview_default_elevation"
+    android:layout_margin="10dp"
+    android:layout_centerHorizontal="true"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:id="@+id/logoLinear"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_search"
+            />
+
+            <TextView
+
+                android:id="@+id/logo"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="@string/newCrimeTxt"
+                android:textSize="25dp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+
+    <EditText
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_below="@id/logoLinear"
+        style="?android:attr/editTextBackground"
+        android:id="@+id/crime_name_ET"
+        android:hint="@string/crime_name_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_margin="16dp"
+        android:id="@+id/crimeDesc_ET"
+        android:layout_width="match_parent"
+        android:hint="@string/crimeDesc"
+        android:layout_below="@id/crime_name_ET"
+        android:layout_height="wrap_content" />
+<!-- Assumed to Assign Date to the Crime but Currently its Set to the date of insertion -->
+    <Button
+        android:visibility="gone"
+        android:id="@+id/crimeDate_BTN"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/crimeDate"
+        android:layout_below="@id/crimeDesc_ET"
+        android:layout_centerHorizontal="true"
+        />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

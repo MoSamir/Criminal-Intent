@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Criminal Intent</string>
+    <string name="select_date">Crime Date</string>
+    <string name="crime_name_hint">Crime Name</string>
+    <string name="crime_solved">Solved ? </string>
+    <string name="crime_solved_title">Crime Solved</string>
+    <string name="title_activity_crime_list">Current Crimes</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="crimeDeleteConfirmation">Are you sure you want delete ?</string>
+    <string name="settings">Settings</string>
+    <string name="delete">Delete</string>
+    <string name="restore">Restore </string>
+    <string name="noCrimes">No Crimes Yet\n Add your First Crime ?</string>
+    <string name="newCrimeNameTemp">Untitled Crime</string>
+    <string name="crimeDesc">Crime Description</string>
+    <string name="crimeDate">Select crime date</string>
+    <string name="addCrime">New Crime</string>
+    <string name="save">Save</string>
+    <string name="EmptyName">Name Cant be Empty</string>
+    <string name="newCrimeTxt">New Crime</string>
+    <string name="editCrime">Edit Crime</string>
+    <string name="add_crime">New Crime</string>
+    <string name="susspectName">Select Suspect</string>
+    <string name="Report">Send Report</string>
+    <string name="report_temp" translatable="false">This Is Criminal Intent Application Sending you the Name Of The Main Suspect %s And We Think its Your Turn Now To approve Or Not </string>
+    <string name="unexpectedError">Unexpected Error Accured</string>
+    <string name="crime_name_title">Crime Title</string>
+    <string name="you_need_to_grant_permission">Please Grant Access to the Camera To Capture Images</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="select">Select</string>
+    <string name="retakeImage">Retake</string>
+    <string name="pleaseEnableEditing">Please Press Edit Crime before you start Editing</string>
+    <string name="sort">Sort</string>
+    <string name="DragAndDropToReOrder">Touch And Drag Items To reorder It Manually.</string>
+    <string name="solved">Closed</string>
+    <string name="all">All</string>
+    <string name="Unresolved">Open</string>
+    <string name="crimesLable">crimes</string>
+
+
+</resources>

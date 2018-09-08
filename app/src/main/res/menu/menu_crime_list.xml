@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/appSettings"
+        android:title="@string/settings"
+        android:visible="true"
+        app:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_manage"
+    />
+
+
+    <item android:visible="true"
+        android:title="@string/sort"
+        app:showAsAction="always"
+        android:id="@+id/baseSort"
+        android:icon="@android:drawable/ic_menu_sort_by_size" >
+
+    <menu>
+        <item android:title="Date Sort" android:visible="true" android:id="@+id/dateSort" />
+        <item android:title="Manual Sort" android:visible="true" android:id="@+id/manualSort" />
+        <item android:title="Solved First" android:visible="true" android:id="@+id/solvedSort" />
+    </menu>
+
+
+    </item>
+
+
+
+    <item android:id="@+id/addCrimeMenuItem"
+        android:title="@string/add_crime"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="always" />
+
+
+    <item android:id="@+id/saveOrdering"
+        android:title="@string/add_crime"
+        android:visible="false"
+        android:icon="@android:drawable/ic_menu_save"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/editCrime"
+        android:visible="false"
+        app:showAsAction="always"
+        android:title="@string/editCrime" />
+</menu>

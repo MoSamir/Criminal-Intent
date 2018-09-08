@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">نيه القاتل</string>
+    <string name="select_date">تاريخ الجريمه</string>
+    <string name="crime_name_hint">عنوان ملف الجريمه</string>
+    <string name="crime_solved">تم حلها ؟</string>
+    <string name="crime_solved_title">تم حلها</string>
+    <string name="title_activity_crime_list">القضايا الحاليه</string>
+    <string name="crimeDeleteConfirmation">تاكيد المسح ؟</string>
+    <string name="settings">اعدادات</string>
+    <string name="delete">مسح</string>
+    <string name="restore">اعاده</string>
+    <string name="noCrimes">"سجل الجرائم خالي "</string>
+    <string name="newCrimeNameTemp">بدون عنوان</string>
+    <string name="crimeDesc">تفاصيل الجريمه</string>
+    <string name="crimeDate">اختر تاريخ الجريمه</string>
+    <string name="addCrime">جريمه جديده</string>
+    <string name="save">حفظ</string>
+    <string name="EmptyName">يرجي ادخال الاسم</string>
+    <string name="newCrimeTxt">جريمه جديده</string>
+    <string name="editCrime">"تعديل "</string>
+    <string name="add_crime">اضافه جريمه</string>
+    <string name="susspectName">اسم المتهم</string>
+    <string name="Report">ارسال تقرير</string>
+    <string name="unexpectedError">حدث خطأ غير متوقع يرجي اعاده المحاوله</string>
+    <string name="crime_name_title">عنوان الجريمه</string>
+    <string name="you_need_to_grant_permission">يرجي السماح للتطبيق باستخدام الكاميرا</string>
+    <string name="select">اختر</string>
+    <string name="retakeImage">اعاده التقاط</string>
+    <string name="pleaseEnableEditing">يرجي تفعيل التعديل اولا</string>
+    <string name="sort">ترتيب</string>
+    <string name="DragAndDropToReOrder">يرجي جذب الخليه لمكانها الجديد يدويا</string>
+    <string name="solved">"مقفله "</string>
+    <string name="all">كل القضايا</string>
+    <string name="Unresolved">" جاريه"</string>
+    <string name="crimesLable">قضايا</string>
+</resources>
